@@ -41,9 +41,9 @@ function App() {
     }
   }
 
-  function adicionarAoCarrinho() {
-    console.log('okay')
-  }
+  // function adicionarAoCarrinho() {
+  //   console.log('okay')
+  // }
 
   return (
     <Provider store={store}>
@@ -54,7 +54,6 @@ function App() {
           produtos={produtos}
           favoritos={favoritos}
           favoritar={favoritar}
-          adicionarAoCarrinho={adicionarAoCarrinho}
         />
       </div>
     </Provider>
