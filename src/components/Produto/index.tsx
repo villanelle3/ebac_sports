@@ -1,7 +1,7 @@
 import { Produto as ProdutoType } from '../../App'
 import * as S from './styles'
 import { useDispatch } from 'react-redux'
-import {adicionar} from '../../store/reducers/carrinho'
+import { adicionar } from '../../store/reducers/carrinho'
 type Props = {
   produto: ProdutoType
   favoritar: (produto: ProdutoType) => void
