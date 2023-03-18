@@ -11,7 +11,7 @@ type Props = {
 const ProdutosComponent = ({ favoritos }: Props) => {
   const { data: produtos, isLoading } = useGetProdutosQuery()
 
-  if (isLoading) return <h2>Loading...</h2>
+  if (isLoading) return <h2>Carregando...</h2>
 
   const produtoEstaNosFavoritos = (produto: ProdutoType) => {
     const produtoId = produto.id
